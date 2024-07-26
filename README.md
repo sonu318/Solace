@@ -6,10 +6,13 @@ Solace acts as a central hub for exchanging messages between different parts of 
 
 # Benefits: 
 o	Reliable Delivery: Guarantees messages are delivered at least once.
+
 o	Scalability: Handles high volumes of messages efficiently.
+
 o	Decoupling: Enables loosely coupled communication between applications, making them more flexible and maintainable.
+
 o	Real-time Communication: Supports low-latency messaging for time-sensitive applications.
 
-# official documentation
+# Official Documentation
 https://www.solace.dev/ 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
