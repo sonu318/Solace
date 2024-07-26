@@ -1,3 +1,5 @@
+//This code is for NonXa Queue connection 
+
 package SolaceServletPackage;
 
 import java.io.IOException;
@@ -100,3 +102,5 @@ public class SolaceServlet extends HttpServlet {
 	}
 
 }
+
+
