@@ -19,7 +19,10 @@ https://www.solace.dev/
 
 # What is 'Queue'
 •	Function: Act as message buffers for temporary storage and ordered delivery. Producers send messages to queues, and consumers receive them following a first-in, first-out (FIFO) principle. Think of queues as lines where messages wait to be processed by consumers.
+
 •	Delivery Model: "Point-to-Point" (with variations). By default, a single consumer receives messages from an exclusive queue, ensuring ordered delivery. Non-exclusive queues can support multiple consumers for load balancing or distribution.
+
 •	Persistence: Configurable. Queues can be configured for persistent or non-persistent storage based on your application's needs.
+
 •	Scalability: Queues can be helpful for managing message flow and ensuring ordered delivery, but they're less suitable for large-scale distribution to many subscribers.
 
