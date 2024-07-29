@@ -26,3 +26,13 @@ https://www.solace.dev/
 
 •	Scalability: Queues can be helpful for managing message flow and ensuring ordered delivery, but they're less suitable for large-scale distribution to many subscribers.
 
+# What is 'Topic'
+•	Function: Act as channels for message categorization and routing. Publishers send messages to topics, and subscribers interested in those specific messages subscribe to the relevant topics. Think of topics like folders where messages are categorized based on their content.
+
+•	Delivery Model: "Publish-Subscribe". Subscribers receive all messages published to the topics they're subscribed to. This is a one-to-many communication model.
+
+•	Persistence: Optional. Temporary topics are created dynamically and disappear with the session. Permanent topics can be explicitly created for persistent message storage.
+
+•	Scalability: Topics excel at distributing messages to many subscribers interested in the same category.
+
+
