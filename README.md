@@ -43,8 +43,14 @@ https://www.solace.dev/
 In some cases, you might even combine topics and queues. For instance, a queue can subscribe to multiple topics, allowing it to receive messages from various categories for further processing.
 
 # XA and Non-XA connection
+Solace connections come in two flavors for handling transactions: XA and non-XA. They differ based on the level of transaction coordination required in your application.
 
+# Non-XA Connections:
 
+•	Simpler to set up and use.
 
+•	Suitable for local transactions involving a single resource (e.g., the Solace message broker).
 
+•	Each operation (message publish, receive, etc.) is treated as an individual transaction.
 
+•	Success or failure of one operation doesn't affect others.
