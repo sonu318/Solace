@@ -54,3 +54,13 @@ Solace connections come in two flavors for handling transactions: XA and non-XA.
 •	Each operation (message publish, receive, etc.) is treated as an individual transaction.
 
 •	Success or failure of one operation doesn't affect others.
+
+# XA Connections:
+
+•	More complex to configure and manage.
+
+•	Designed for distributed transactions involving multiple resources (e.g., Solace message broker and a database).
+
+•	Utilizes a Transaction Manager (XA coordinator) to ensure all involved resources participate in a single, atomic transaction.
+
+•	All operations within the transaction succeed or fail together.
