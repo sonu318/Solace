@@ -35,4 +35,15 @@ https://www.solace.dev/
 
 •	Scalability: Topics excel at distributing messages to many subscribers interested in the same category.
 
+# Choosing Between Topics and Queues
+•	Use topics when you need to distribute messages to multiple interested subscribers based on content categories.
+
+•	Use queues when you need to ensure ordered delivery, buffer messages for temporary storage, or enable load balancing across multiple consumers.
+
+In some cases, you might even combine topics and queues. For instance, a queue can subscribe to multiple topics, allowing it to receive messages from various categories for further processing.
+
+
+
+
+
 
