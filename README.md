@@ -42,6 +42,7 @@ https://www.solace.dev/
 
 In some cases, you might even combine topics and queues. For instance, a queue can subscribe to multiple topics, allowing it to receive messages from various categories for further processing.
 
+# XA and Non-XA connection
 
 
 
